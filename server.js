@@ -6,8 +6,9 @@ var MongoClient = require('mongodb');             // define our app using expres
 //var bodyParser = require('body-parser');
 var mongoose   = require('mongoose');
 //var url = "mongodb://localhost:27017/mybase";
-var url = "mongodb://sbertech:Zx350707@ds153239.mlab.com:53239/base_for_heroku";
-var jsonParser = bodyParser.json()
+var url = "mongodb://sbertech:Zx350707@ds157112.mlab.com:57112/sendmom";
+
+var jsonParser = bodyParser.json();
 
 mongoose.connect(url); // connect to our database
 
